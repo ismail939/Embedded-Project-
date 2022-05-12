@@ -3,7 +3,7 @@
 
 void button_init(char portName, unsigned char pinNumber)
 {
-	
+	Port_Init(portName);
 	Pin_Init_Dir(portName, pinNumber, 0);
 	
 }
